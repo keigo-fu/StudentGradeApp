@@ -1,0 +1,20 @@
+
+# C# / .NET のビルド生成ファイル
+bin/
+obj/
+
+# Visual Studio関連
+.vs/
+*.user
+*.suo
+
+# 学生データ（個人情報保護のため除外）
+students.json
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+
+# PDF変換時に作成する中間HTMLファイル
+docs/*.html
